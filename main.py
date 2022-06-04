@@ -47,4 +47,4 @@ async def fax_error(ctx, error):
 bot.run(TOKEN)
 
 stopclose = input()
-
+# :D
