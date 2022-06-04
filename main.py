@@ -29,7 +29,7 @@ async def fax(ctx, user:discord.User,*,message):
 
 @bot.command()
 async def faxhelp(ctx):
-    await ctx.send('<Fax Help> \n -Command Structure: \n /fax [UserID] [Message] \n -How to get a UserID: \n Enable developer mode under advanced settings in user settings \n Then right click on someones name and click copy id \n -Example: \n /fax 431996025813729302 Hi \n -Version \n Beta 0.3')
+    await ctx.send('<Fax Help> \n -Command Structure: \n /fax [UserID] [Message] \n -How to get a UserID: \n Enable developer mode under advanced settings in user settings \n Then right click on someones name and click copy id \n -Example: \n /fax 431996025813729302 Hi \n -Version \n 0.4 Github Cleanup')
    
 
 
