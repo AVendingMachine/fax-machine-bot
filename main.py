@@ -23,6 +23,7 @@ async def fax(ctx, user:discord.User,*,message):
     try:
         await ctx.message.delete()
         await user.send(message)
+        print("User Sent Message")
     except discord.Forbidden:
         print("Message Could Not Be Sent! (Blocked)")
         await ctx.send('Message Failed to Send! (Blocked)')
